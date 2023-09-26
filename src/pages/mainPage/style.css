@@ -1,0 +1,88 @@
+.mainPage__root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mainPage__topBlock {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.mainPage__logo {
+}
+/* 
+.mainPage__filterRoot {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.362);
+} */
+
+.mainPage__filterHeader {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.mainPage__filter {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.mainPage__filterBlock {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 10000;
+    max-height: 1px;
+    transition: all 300ms ease 0s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 75px;
+    overflow: hidden;
+    border: none;
+}
+.mainPage__filterBlock__visible {
+    max-height: 250px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid;
+}
+.mainPage__inputBlock {
+    width: 65%;
+    margin: 12px 0px;
+}
+
+.mainPage__input {
+    width: 100%;
+}
+
+.mainPage__buttonsBlock {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainPage__likeBtn {
+    width: 10%;
+}
+
+.mainPage__likeBtn:hover {
+    opacity: 0.8;
+}
+
+.mainPage__likeBtn:active {
+    opacity: 0.4;
+}
+
+.mainPage__likeBtn + .mainPage__likeBtn {
+    margin-left: 70px;
+}
+
+.mainPage__label {
+    font-weight: 600;
+}

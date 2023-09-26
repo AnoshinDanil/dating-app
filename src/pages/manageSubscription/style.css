@@ -1,0 +1,159 @@
+.manageSubscription__root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.manageSubscription__header {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.manageSubscription__content {
+    position: relative;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.manageSubscription__advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manageSubscription__advantages_header {
+    color: #e7a035;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.manageSubscription__advantages_main {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.manageSubscription__advantages_secondary {
+    margin-top: 10px;
+}
+
+.manageSubscription__currentSubscription {
+    border: 1px solid #C0C0C0;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 6%;
+}
+
+.manageSubscription__offers {
+    border: 1px solid #C0C0C0;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr;
+    height: fit-content;
+
+}
+
+.manageSubscription__topContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.manageSubscription__topContent + .manageSubscription__topContent {
+    margin-top: 10px;
+}
+
+.manageSubscription__currentPlanText {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.manageSubscription__buttonsBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.manageSubscriprion__btnUnsubscribe {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 34px;
+    width: 180px;
+}
+
+.manageSubscriprion__btnUpgrade {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 30px;
+    height: 34px;
+    background-color: #AA3FEC;
+    margin-left: 15%;
+    width: 180px;
+}
+
+.manageSubscription__plan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f6f6f6;
+}
+
+.manageSubscription__subscriptionType {
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.manageSubscription__subscriptionType:hover {
+    box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+.manageSubscription__subscriptionType:active {
+    border: 3px solid #e7a035;
+    color: #e7a035;
+}
+
+.manageSubscription__subscriptionType_number {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.manageSubscription__subscriptionType_text {
+    margin: 10px;
+}
+
+.manageSubscription__subscriptionType_payment {
+}
+
+.manageSubscription__subscriptionType_discount {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.manageSubscription__buttonContinue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manageSubscription__btn {
+    width: 90%;
+    margin: 10px 0px;
+    background-color: #cf9031;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    height: 34px;
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.burger__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger__bar {
+    width: 2em;
+    height: 0.5em;
+    background-color: rgb(0, 183, 255);
+    border-radius: 0.5em;
+}
+
+.menu {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(154, 181,240);
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+.burger__bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger__bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger__bar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar__unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+.burgerMenu__text {
+    position: relative;
+    top: 4px;
+    margin: 0px 8px;
+    font-size: 30px;
+    user-select: none;
+}
+
+.burgerMenu__menu {
+    margin-right: 10px
+}
+
+.burgerMenu__menuContent {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(154, 181,240);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 246px;
+    border-radius: 10px;
+    left: 13px;
+    top: 13px;
+}
+
+.menuContent__visible {
+    display: inherit;
+}
+
+.menuContent__hidden {
+    display: none;
+}
+
+.burgerMenu__resetBtn {
+    height: 30px;
+    text-align: center;
+}
+
+.burgerMenu__resetBtnContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.burgerMenu__content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.burgerMenu__crossIcon {
+    padding: 4px;
+    text-align: end;
+}

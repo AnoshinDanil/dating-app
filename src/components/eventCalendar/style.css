@@ -1,0 +1,28 @@
+.eventCalendar__root {
+    width: fit-content;
+    overflow-y: auto;
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+}
+
+.eventCalendar__header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.eventCalendar__data {
+    display: flex;
+    margin: 10px 8px;
+}
+
+.eventCalendar__name,
+.eventCalendar__date {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+.home__root {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.home__content {
+
+}
+
+.home__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AA3FEC;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+.home__header {
+}
+
+.home__photo {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.home__info {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.home__accountBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.home__input {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.home__label {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.home__inputRange {
+}
+
+.home__buttonsBlock {
+    border-top: 1px solid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.home__logoutBtn {
+    margin-top: 15px;
+    height: 30px;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.home__delteBtn {
+    margin-top: 15px;
+    height: 30px;
+    font-size: 15px;
+    color: red;
+    width: 100%;
+    font-weight: 600;
+}

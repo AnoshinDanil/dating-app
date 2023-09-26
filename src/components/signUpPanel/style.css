@@ -1,0 +1,52 @@
+.signUpPanel__root {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
+.signUpPanel__header {
+    font-size: 30px;
+}
+
+.signUpPanel__inputsRoot {
+    padding-top: 30px;
+}
+
+.signUpPanel__inputsBlock {
+    margin-top: 10px;
+}
+
+.signUpPanel__input {
+    width: 100%;
+    border-left: none;
+    color: grey;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid;
+    margin: 10px 0px;
+}
+
+.signUpPanel__btn {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #aa3fec;
+    text-align: center;
+    color: white;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+}
+
+.signUpPanel__socialSignUp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.signUpPanel__image {
+    margin-top: 20px;
+    margin-left: 35px;
+}

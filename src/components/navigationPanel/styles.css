@@ -1,0 +1,59 @@
+.navPanel__rootBottom {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    margin: 8px;
+    border: 1px solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.navPanel__rootTop {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    margin: 8px;
+    border: 1px solid;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.navPanel__LeftSideRoot {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    margin: 8px;
+    border: 1px solid;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.navPanel__rightSideRoot {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    margin: 8px;
+    border: 1px solid;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.navPanel__buttonHorizontal {
+    margin: 0px 15px;
+}
+
+.navPanel__buttonVertical {
+    margin: 15px 8px;
+}
+
+.navPanel__buttonVertical:hover {
+    background-color: aqua;
+}
+
+.navPanel__buttonHorizontal:hover {
+    background-color: aqua;
+}
